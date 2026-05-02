@@ -1,0 +1,15 @@
+/* Mobile */
+@media screen and (max-width: 1199px){
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px){
+    header { display: none !important; }
+    .moneta-btn { display: inline-block !important; }
+
+    .section-title, .main-news, .wrap-news,
+    .black-section, .pink-section, .secondary-news, .news-slideshow {
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+}
